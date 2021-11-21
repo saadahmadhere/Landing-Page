@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/b9c207240a.js" crossorigin="anonymous"></script>
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Newsletter SignUp</title>
+
+  </head>
+
+  <body>
+      <div class="forms-container">
+           
+          <form action="/" class="sign-up-form" method="POST">
+            <img src="images/sign up image.svg" height="300" width="350"></img>
+            <h2 class="title">Sign up to my Newsletter</h2>
+
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input name="fName" type="text" placeholder="First name" required autofocus />
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input name="lName" type="text" placeholder="Last Name" required />
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input name="email" type="email" placeholder="Email" />
+            </div>
+
+            <input type="submit" class="btn" value="Sign me up!" />
+            
+          </form>
+       
+      </div>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>

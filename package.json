@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "A newsletter signup landing page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadahmadhere/Landing-Page.git"
+  },
+  "author": "Saad Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saadahmadhere/Landing-Page/issues"
+  },
+  "homepage": "https://github.com/saadahmadhere/Landing-Page#readme"
+}
